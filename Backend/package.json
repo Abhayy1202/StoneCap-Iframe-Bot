@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "An iframe bot",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/server.js"
+  },
+  "author": "Abhay",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.3.4",
+    "@langchain/core": "^0.2.34",
+    "@langchain/google-genai": "^0.1.0",
+    "@langchain/openai": "^0.3.4",
+    "@supabase/supabase-js": "^2.45.4",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "fs": "^0.0.1-security",
+    "langchain": "^0.3.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
